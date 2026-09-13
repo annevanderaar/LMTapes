@@ -1,1 +1,22 @@
-{}
+{
+  "navigation": {
+    "work": "Werk",
+    "about": "Over mij",
+    "contact": "Contact"
+  },
+  "home": {
+    "eyebrow": "Animator · Illustrator · Storyteller",
+    "intro": "Animatie, illustratie en werelden waarin het gewone nét een beetje vreemder wordt.",
+    "scroll": "Ontdek mijn werk",
+    "selectedWork": "Geselecteerd werk",
+    "viewAll": "Bekijk al het werk",
+    "aboutLabel": "Over Lisa-Marij",
+    "aboutText": "Ik creëer verhalen, personages en werelden die je even ergens anders naartoe meenemen.",
+    "moreAbout": "Meer over mij",
+    "contactLabel": "Heb je iets in gedachten?",
+    "letsTalk": "Let's talk"
+  },
+  "footer": {
+    "description": "Animatie & illustratie"
+  }
+}

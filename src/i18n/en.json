@@ -1,1 +1,22 @@
-{}
+{
+  "navigation": {
+    "work": "Work",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "home": {
+    "eyebrow": "Animator · Illustrator · Storyteller",
+    "intro": "Animation, illustration and worlds where the ordinary becomes just a little strange.",
+    "scroll": "Explore my work",
+    "selectedWork": "Selected work",
+    "viewAll": "View all work",
+    "aboutLabel": "About Lisa-Marij",
+    "aboutText": "I create stories, characters and worlds that transport you somewhere else for a little while.",
+    "moreAbout": "More about me",
+    "contactLabel": "Got something in mind?",
+    "letsTalk": "Let's talk"
+  },
+  "footer": {
+    "description": "Animation & illustration"
+  }
+}
