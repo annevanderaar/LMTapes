@@ -10,7 +10,7 @@ export default function Navigation() {
             <div className="flex items-center justify-between px-5 py-5 text-white md:px-10 md:py-7">
                 <NavLink
                     to="/"
-                    className="text-xl font-black uppercase tracking-[-0.05em] md:text-2xl"
+                    className="text-xl font-black uppercase tracking-[-0.05em] transition-opacity duration-300 hover:opacity-50 md:text-2xl"
                 >
                     LMTAPES
                 </NavLink>
@@ -19,21 +19,21 @@ export default function Navigation() {
                     <nav className="hidden items-center gap-8 text-sm font-medium uppercase tracking-[0.12em] md:flex">
                         <NavLink
                             to="/work"
-                            className="transition-opacity hover:opacity-50"
+                            className="transition-opacity duration-300 hover:opacity-50"
                         >
                             {t('navigation.work')}
                         </NavLink>
 
                         <NavLink
                             to="/about"
-                            className="transition-opacity hover:opacity-50"
+                            className="transition-opacity duration-300 hover:opacity-50"
                         >
                             {t('navigation.about')}
                         </NavLink>
 
                         <a
-                            href="mailto:hello@lmtapes.com"
-                            className="transition-opacity hover:opacity-50"
+                            href="mailto:lisamarijvdland@gmail.com"
+                            className="transition-opacity duration-300 hover:opacity-50"
                         >
                             {t('navigation.contact')}
                         </a>
