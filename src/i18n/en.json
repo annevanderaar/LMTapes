@@ -4,6 +4,9 @@
     "about": "About",
     "contact": "Contact"
   },
+  "footer": {
+    "madeBy": "Website made by"
+  },
   "home": {
     "eyebrow": "Animator · Illustrator · Storyteller",
     "intro": "Animation, illustration and worlds where the ordinary becomes just a little strange.",
@@ -16,7 +19,111 @@
     "contactLabel": "Got something in mind?",
     "letsTalk": "Let's talk"
   },
-  "footer": {
-    "description": "Animation & illustration"
+  "work": {
+    "title": "Work",
+    "intro": "Animation, illustration and visual storytelling by Lisa-Marij.",
+    "projects": "projects",
+    "viewProject": "View project",
+    "filters": {
+      "all": "All",
+      "animation": "Animation",
+      "illustration": "Illustration"
+    },
+    "categories": {
+      "animation": "Animation",
+      "illustration": "Illustration"
+    },
+    "footerLabel": "More about LMTAPES",
+    "footerTitle": "More than just the finished frame.",
+    "aboutLink": "About Lisa-Marij",
+    "otherWork": {
+      "title": "Other work",
+      "intro": "A collection of illustrations, experiments, designs and work from the process.",
+      "imageAlt": "Other work"
+    }
+  },
+  "project": {
+    "backToWork": "Back to work",
+    "notFound": "Project not found",
+    "year": "Year",
+    "category": "Category",
+    "about": "About the project",
+    "galleryLabel": "More from the project",
+    "galleryTitle": "Images & process",
+    "nextProject": "Next project"
+  },
+  "projects": {
+    "roodkapje": {
+      "intro": "An animation project where image and story come together.",
+      "description": "Roodkapje is one of Lisa-Marij's earlier animation projects. The full animation takes centre stage on this page."
+    },
+    "the-hole": {
+      "intro": "A short animation with its own visual world.",
+      "description": "The Hole shows Lisa-Marij's development in animation and visual storytelling."
+    },
+    "ew": {
+      "intro": "An experimental animation project.",
+      "description": "EW explores how movement, imagery and atmosphere can work together to tell a story."
+    },
+    "who-am-i": {
+      "intro": "A visual story centred around identity and character.",
+      "description": "Who Am I? combines animation and illustrative elements in a personal visual style."
+    },
+    "gieser-wildeman": {
+      "intro": "An animation project focused on atmosphere and storytelling.",
+      "description": "Gieser Wildeman shows a further development in Lisa-Marij's animation style and approach to storytelling."
+    },
+    "werkproces": {
+      "intro": "A look into the creative process behind animation.",
+      "description": "Werkproces focuses not only on the finished result, but also on the steps, choices and experiments leading up to it."
+    },
+    "24-hour-challenge": {
+      "intro": "An animation created within a limited amount of time.",
+      "description": "The 24 Hour Challenge is about rapidly developing ideas, making decisions and creating a complete result."
+    },
+    "zenith": {
+      "intro": "A visually driven animation project with a world of its own.",
+      "description": "Zenith combines character design, atmosphere and animation within a project with a strong visual identity."
+    },
+    "io-project": {
+      "intro": "An animation project combining experimentation and storytelling.",
+      "description": "I.O. Project shows Lisa-Marij's continued development in animation and visual design."
+    },
+    "journey-lorraine": {
+      "intro": "An atmospheric animation built around a visual journey.",
+      "description": "Journey Lorraine uses animation to create its own world and atmosphere."
+    },
+    "time-is-fishy": {
+      "intro": "A recent animation project with a playful and distinctive visual style.",
+      "description": "Time Is Fishy is one of Lisa-Marij's newest projects, bringing together her animation, illustration and storytelling."
+    },
+    "the-death-of-imagination": {
+      "intro": "A comic combining illustration and sequential storytelling.",
+      "description": "The Death of Imagination consists of several versions and pages. The images below show both the story and the development of the project."
+    },
+    "the-thing-that-feeds": {
+      "intro": "An illustration project with a dark and atmospheric visual language.",
+      "description": "The Thing That Feeds consists of a series of images that together present the atmosphere, characters and world of the project."
+    },
+    "selfportrait": {
+      "intro": "An illustrated self-portrait from 2025.",
+      "description": "Selfportrait puts Lisa-Marij's own illustrative style at the centre."
+    }
+  },
+  "about": {
+    "title": "About",
+    "intro": "Animator, illustrator and storyteller with a love for worlds that sit just outside the ordinary.",
+    "storyLabel": "My story",
+    "storyTitle": "I create work that pulls you somewhere else for a moment.",
+    "storyOne": "I'm Lisa-Marij, also known as LMtapes. As a Dutch animator and illustrator, I love creating visual stories where atmosphere, character and imagination take the lead.",
+    "storyTwo": "My work moves between animation and illustration. I'm drawn to creating worlds and characters that feel familiar, while still carrying something strange, tense or unexpected.",
+    "detailsLabel": "Currently",
+    "disciplineLabel": "Discipline",
+    "discipline": "Animation & illustration",
+    "educationLabel": "Education",
+    "education": "Animation Design · ArtEZ Zwolle",
+    "contactLabel": "Create something together?",
+    "contactTitle": "Got an idea, project or story?",
+    "contactLink": "Send me a message"
   }
 }

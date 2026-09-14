@@ -1,5 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
 
+import ScrollToTop from './components/ScrollToTop.jsx';
 import Navigation from './components/Navigation.jsx';
 import Footer from './components/Footer.jsx';
 
@@ -11,6 +12,7 @@ import Project from './pages/Project.jsx';
 function App() {
     return (
         <div className="min-h-screen bg-[#f5f3ee] text-[#111111]">
+            <ScrollToTop  />
             <Navigation />
 
             <main>

@@ -19,11 +19,18 @@ export default function Home() {
     return (
         <>
             <section className="relative flex min-h-screen flex-col justify-end overflow-hidden bg-[#111111] px-5 pb-8 pt-32 text-white md:px-10 md:pb-12">
-                <div className="absolute right-[-15vw] top-[5vh] h-[55vw] w-[55vw] rounded-full bg-[#29535B] opacity-90 blur-[140px]" />
+                <div className="pointer-events-none absolute inset-0 overflow-hidden">
+                    <iframe
+                        src="https://www.youtube.com/embed/WWp7dnnp-2Q?autoplay=1&mute=1&controls=0&loop=1&playlist=WWp7dnnp-2Q&playsinline=1&rel=0&modestbranding=1&cc_load_policy=0&iv_load_policy=3&disablekb=1"
+                        title="LMTAPES Showreel"
+                        allow="autoplay; encrypted-media"
+                        className="absolute left-1/2 top-1/2 h-[56.25vw] min-h-full w-[177.77777778vh] min-w-full -translate-x-1/2 -translate-y-1/2 scale-[1.08] border-0"
+                    />
+                </div>
 
-                <div className="absolute bottom-[-20vw] left-[10vw] h-[45vw] w-[45vw] rounded-full bg-[#396F78] opacity-40 blur-[140px]" />
+                <div className="pointer-events-none absolute inset-0 bg-black/45" />
 
-                <div className="absolute left-[45%] top-[30%] h-[25vw] w-[25vw] rounded-full bg-[#18383E] opacity-50 blur-[120px]" />
+                <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/85 via-black/25 to-black/35" />
 
                 <div className="relative z-10">
                     <p className="mb-5 text-xs font-semibold uppercase tracking-[0.3em] text-white/60 md:text-sm">
@@ -56,10 +63,11 @@ export default function Home() {
                 </div>
             </section>
 
-            <section className="scroll-mt-20 bg-[#F5F3EE] px-5 py-24 text-[#111111] md:px-10 md:py-36">
-                <div
-                    id="selected-work"
-                    className="mb-16 flex items-end justify-between gap-10 border-b border-black/20 pb-5">
+            <section
+                id="selected-work"
+                className="scroll-mt-20 bg-[#F5F3EE] px-5 py-24 text-[#111111] md:px-10 md:py-36"
+            >
+                <div className="mb-16 flex items-end justify-between gap-10 border-b border-black/20 pb-5">
                     <div>
                         <p className="mb-4 text-xs font-semibold uppercase tracking-[0.3em] text-[#29535B]">
                             LMTAPES

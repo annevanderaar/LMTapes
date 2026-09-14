@@ -15,8 +15,18 @@ export default function Footer() {
                     © {new Date().getFullYear()} LMTAPES
                 </div>
 
-                <div className="text-xs uppercase tracking-[0.2em] text-white/50">
-                    {t('footer.description')}
+                <div className="text-[10px] uppercase tracking-[0.2em] text-white/50">
+                    {t("footer.madeBy")}
+
+                    <a
+                        href="https://everlastingwild.nl/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="group relative ml-1 inline-block font-semibold text-white"
+                    >
+                        Everlasting Wild
+                        <span className="absolute -bottom-1 left-0 h-px w-0 bg-white transition-all duration-300 group-hover:w-full" />
+                    </a>
                 </div>
 
                 <div className="flex items-center gap-4">

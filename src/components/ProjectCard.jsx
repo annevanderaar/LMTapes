@@ -8,16 +8,42 @@ export default function ProjectCard({ project, index }) {
                 ? 'bg-[#396F78]'
                 : 'bg-[#18383E]';
 
+    const getProjectImage = () => {
+        if (project.image) {
+            return project.image;
+        }
+
+        if (project.mediaType === 'video' && project.youtubeId) {
+            return `https://img.youtube.com/vi/${project.youtubeId}/maxresdefault.jpg`;
+        }
+
+        return null;
+    };
+
+    const handleImageError = (event) => {
+        if (project.mediaType !== 'video' || !project.youtubeId) {
+            return;
+        }
+
+        const fallbackImage = `https://img.youtube.com/vi/${project.youtubeId}/hqdefault.jpg`;
+
+        event.currentTarget.onerror = null;
+        event.currentTarget.src = fallbackImage;
+    };
+
+    const image = getProjectImage();
+
     return (
         <Link
             to={`/work/${project.slug}`}
             className="group block"
         >
             <div className="relative overflow-hidden bg-[#D9D5CC]">
-                {project.image ? (
+                {image ? (
                     <img
-                        src={project.image}
+                        src={image}
                         alt={project.title}
+                        onError={handleImageError}
                         className="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.03]"
                     />
                 ) : (
